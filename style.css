@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.jogo {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-top: 0;
+  color: #1f2937;
+}
+
+.placar {
+  background-color: #eef2ff;
+  padding: 8px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #3730a3;
+}
+
+.dica {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+#palavra {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 8px;
+  margin: 30px 0;
+  word-break: break-word;
+}
+
+.controles {
+  margin: 15px 0;
+}
+
+input {
+  width: 50px;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+button:hover:not(:disabled) {
+  background-color: #1d4ed8;
+}
+
+button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+#btn-reiniciar {
+  background-color: #059669;
+  margin-top: 15px;
+}
+
+#btn-reiniciar:hover {
+  background-color: #047857;
+}
+
+#mensagem {
+  font-weight: bold;
+  min-height: 24px;
+}
+
+#letras-usadas {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #dc2626;
+}
