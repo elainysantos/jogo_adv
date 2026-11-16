@@ -3,8 +3,7 @@
 Projeto desenvolvido na disciplina de **Desenvolvimento de Aplicações Web I** (IFPB - Campus Campina Grande).
 
 ## Integrantes
-- Nome do aluno 1
-- Nome do aluno 2 (se houver)
+- Elainy Irene :3
 
 ## Como jogar
 Digite uma letra no campo indicado e clique em **Tentar** (ou pressione **Enter**). O objetivo é descobrir a palavra secreta com o auxílio da dica antes que as 6 tentativas acabem.
@@ -20,6 +19,3 @@ Digite uma letra no campo indicado e clique em **Tentar** (ou pressione **Enter*
 - Exibição e bloqueio de letras já utilizadas
 - Contador de vitórias e derrotas
 - Suporte à tecla Enter e botão de reinício da partida
-
-## Link do jogo
-Cole aqui o endereço gerado pelo GitHub Pages (ex: `https://seu-usuario.github.io/web1-jogo-palavras/`).
