@@ -2,7 +2,7 @@
 
 Projeto desenvolvido na disciplina de **Desenvolvimento de Aplicações Web I** (IFPB - Campus Campina Grande).
 
-## Integrantes
+## Integrante
 - Elainy Irene :3
 
 ## Como jogar
